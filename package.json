@@ -1,6 +1,6 @@
 {
   "name": "ml-binary-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Binary search algorithm for sorted arrays",
   "main": "dist/binarySearch.js",
   "jsnext:main": "src/binarySearch.js",
