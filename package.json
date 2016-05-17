@@ -1,0 +1,36 @@
+{
+  "name": "ml-binary-search",
+  "version": "0.0.0",
+  "description": "Binary search algorithm for sorted arrays",
+  "main": "dist/binarySearch.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "test": "npm run build && mocha",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mljs/binary-search.git"
+  },
+  "keywords": [
+    "binary",
+    "search",
+    "sorted",
+    "array"
+  ],
+  "author": "Michaël Zasso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mljs/binary-search/issues"
+  },
+  "homepage": "https://github.com/mljs/binary-search#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "rollup": "^0.26.3",
+    "should": "^8.3.1"
+  }
+}
