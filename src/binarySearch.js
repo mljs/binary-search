@@ -23,4 +23,4 @@ function binarySearch(array, value) {
     return -(low + 1);
 }
 
-export default binarySearch;
+module.exports = binarySearch;
